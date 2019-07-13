@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="mySuite">
+	<parameter name="url"
+		value="https://smartbear.com/product/testcomplete/web-testing/" />
+  <!--   <parameter name="fileName" value="TestData.xls" /> -->
+	<test name="one">
+		<packages>
+			<package name="lib" />
+			<package name="test.init" />
+			<package name="com.pom" />
+			<package name="tests" />
+		</packages>
+	</test>
+
+</suite>
